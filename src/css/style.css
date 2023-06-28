@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Quantico:ital,wght@1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Athiti', sans-serif;
+}
+
+.borda {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+
+}
+
+/* main, footer {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.borda {
+    width: 90%;
+    border: 2vw solid white; Largura da borda responsiva
+  box-sizing: border-box; 
+}
+
+.sessao {
+
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+} */

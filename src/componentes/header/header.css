@@ -1,0 +1,27 @@
+img{
+    width: 50px;
+}
+
+h2{
+    color: white;
+    background-color: violet;
+    font-size: 10px;
+}
+  
+  .mobile-text {
+    display: block;
+  }
+  
+  .desktop-text {
+    display: none;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .mobile-text {
+      display: none;
+    }
+  
+    .desktop-text {
+      display: block;
+    }
+  }
