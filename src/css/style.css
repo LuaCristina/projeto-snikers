@@ -23,6 +23,20 @@
 
 }
 
+
+section {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.sectionMarge {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid white;
+}
+
+
 /* main, footer {
     border: 1px solid black;
     background-color: black;

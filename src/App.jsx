@@ -1,14 +1,16 @@
 import { Fragment } from 'react';
-import Header from './componentes/header/Header';
-import Destaques from './componentes/main/sessaoProdutos/Destaques';
-
-
+import Header from '@/componentes/header';
+import Main from '@/componentes/section/main';
+import Produtos from '@/componentes/section/produtos';
+import Historia from '@/componentes/section/historia';
 
 function App() {
   return (
     <Fragment>
-      <Header/>
-      <Destaques/>
+      <Header />
+      <Main/>
+      <Produtos/>
+      <Historia/>
     </Fragment>
   )
 

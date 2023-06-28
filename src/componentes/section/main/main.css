@@ -1,0 +1,23 @@
+.principal {
+    height: 500px;
+    width: 100%;
+    background-image: url("../../../img/background.png");
+}
+
+.tenis {
+    height: 500px;
+    width: 500px;
+}
+
+#bola {
+    position: absolute;
+    z-index: 2;
+    height: 335px;
+    width: 335px;
+    background-color: #413e3e;
+    border: 1px solid white;
+    opacity: 0.5;
+    border-radius: 335px;
+    display: inline-block;
+    margin-top: 0%;
+}
