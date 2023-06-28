@@ -1,14 +1,14 @@
 {
-    "include": ["src", "vite.config.ts"],
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "allowJs": true, 
-      "lib": ["dom", "es2018"],
-      "module": "esnext",
-      "baseUrl": ".",
-      "paths": {
-        "@/*": ["src/*"]
-      },
-      "types": ["vite/client"]
-    }
+  "include": ["src", "vite.config.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true, 
+    "lib": ["dom", "es2018"],
+    "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vite/client"]
   }
+}

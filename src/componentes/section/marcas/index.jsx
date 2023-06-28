@@ -1,4 +1,4 @@
-import '@/componentes/section/historia/historia.css'
+import '@/componentes/section/marcas/marcas.css'
 import Destaque1 from '@/img/destaque1.png';
 import Destaque2 from '@/img/destaque2.png';
 import Destaque3 from '@/img/destaque3.png';
@@ -20,12 +20,12 @@ const produtos = [
     },
 ]
 
-export default function Historia() {
+export default function Marcas() {
     return (
         <section>
-            <div className="historia-container">
-                historia historia historia
-            </div>
+            <div className="marcas-container">
+              marcas marcas marcas 
+              </div>
         </section>
         // <section>
         //     <div className="destaques-container borda">

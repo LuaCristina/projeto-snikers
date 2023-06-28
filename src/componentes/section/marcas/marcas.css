@@ -1,7 +1,7 @@
-.historia-container {
+.marcas-container {
   height: 500px;
   width: 100%;
-  background-color:green;
+  background-color:blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
