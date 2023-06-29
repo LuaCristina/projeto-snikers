@@ -1,0 +1,42 @@
+.produtos-container {
+  min-height: 500px;
+  width: 100%;
+  padding: 0% 8% 8% 8%;
+}
+
+.produtos-section-title { 
+  width: 100%;
+  color: white;  
+  font-size: 36px;   
+  text-align: center;
+  margin-top: 32px;
+}
+
+.produtos-title { 
+  width: 100%;
+  color: white;  
+  font-size: 24px;    
+  margin-top: 16px;
+}
+
+
+.slider { 
+ 
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
+}
+
+@media screen and (max-width: 600px) {
+  .produtos-section-title {
+    font-size: 24px;  
+  }
+  .produtos-container { 
+    padding: 0% 5% 5% 5%;
+  }
+ 
+}

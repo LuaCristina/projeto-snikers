@@ -10,7 +10,7 @@ export default function Index() {
                 <div className="container">
                     {/* Conteúdo do contêiner */}
                     <div>
-                        <Titulo titulo="JOGUE PARA GANHAR" />
+                        <h1 id="tituloPrincipal">JOGUE PARA GANHAR</h1>
                     </div>
                     <div>
                         <div id="bola"></div>

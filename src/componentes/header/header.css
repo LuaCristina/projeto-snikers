@@ -1,19 +1,19 @@
 img{
     width: 50px;
+    margin: 5px 0 0 10px;
 }
-
-h2{
-    color: white;
-    background-color: violet;
-    font-size: 10px;
-}
-  
   .mobile-text {
     display: block;
+    color: white;
+    font-size: 10px;
+    margin: 5px 0 0 10px;
   }
   
   .desktop-text {
     display: none;
+    color: white;
+    font-size: 10px;
+    margin: 5px 0 0 10px;
   }
   
   @media screen and (min-width: 600px) {

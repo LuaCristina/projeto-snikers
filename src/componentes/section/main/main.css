@@ -2,22 +2,37 @@
     height: 500px;
     width: 100%;
     background-image: url("../../../img/background.png");
+    z-index: 6;
+
 }
 
+
+#tituloPrincipal{
+    color: white;
+}
 .tenis {
     height: 500px;
     width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
 }
 
 #bola {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     height: 335px;
     width: 335px;
-    background-color: #413e3e;
+    background-color: green;
     border: 1px solid white;
     opacity: 0.5;
-    border-radius: 335px;
+    border-radius: 50%;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
     display: inline-block;
-    margin-top: 0%;
+
 }
+

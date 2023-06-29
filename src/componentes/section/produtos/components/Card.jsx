@@ -1,10 +1,12 @@
-const Card = (props) => {
-    return (
-      <li className="card">
-        <span class="material-icons">{props.icon}</span>
-        <p>{props.copy}</p>
-      </li>
-    )
-  }
+import "./card.css"
 
-export default  Card;
+const Card = (props) => {
+  return (
+    <div className="card-container">
+      <img className="card-image" src={props.image}/>
+      <div className="card-title" >{props.title}</div>
+    </div>
+  )
+}
+
+export default Card
