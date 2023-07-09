@@ -8,7 +8,18 @@
         "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_grande.png",
         "background": {
             "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/ScreenMain.png",
-            "video": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/videoNBA.webm"
+            "video":[
+                {
+                    "type": "video/webm",
+                    "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/videoNBA.webm"
+                },
+                {
+                    "type": "video/mp4",
+                    "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/NBA.mp4"
+                }
+
+            ]
+        
         }
     },
     "products": {
