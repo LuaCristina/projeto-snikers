@@ -5,7 +5,7 @@
     "main": {
         "title": "JOGUE PARA GANHAR",
         "subtitle": "DOMINE A QUADRA NO SEU ESTILO",
-        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png",
+        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_grande.png",
         "background": {
             "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/ScreenMain.png",
             "video": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/videoNBA.webm"
