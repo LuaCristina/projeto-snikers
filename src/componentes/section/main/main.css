@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter:  opacity(0.25);
+    filter: opacity(0.25);
 }
 
 .area {
@@ -69,7 +69,7 @@
 
 #tituloPrincipal {
     color: white;
-    font-size: 90px;   
+    font-size: 90px; 
     font-family: 'Quantico', sans-serif;
     font-weight: normal;
     padding: 0px;   
@@ -113,67 +113,47 @@
     border-radius: 50%; 
     display: inline-block;
 
-/* }
+}
 
-@media only screen and (min-width:600px) {
-    
-    
+@media only screen and (max-width:800px) {
     #tituloPrincipal {
-        background-color: transparent;
-        color: white;
-        position: absolute;
-        font-size: 80px;
-        top: 10%;
-        margin-left: 20%;
-        z-index: 2;
+        font-size: 50px; 
     }
-    
     #subtitulo {
-        color: rgb(255, 255, 255);
-        height: 20px;
-        width: 300px;
-        position: absolute;
-        font-size: 20px;
-        top: 50%;
-        margin-left: 20%;
-        z-index: 2;
+        font-size: 15px;
     }
 
+    .right-column { 
+        padding-left: 50px;  
+    }     
+    .left-column { 
+        margin-left: -50px;  
+    }  
+    .imagemPrincipal {
+        height: 200px;
+        width: 200px; 
+    }  
+}
+
+@media only screen and (max-width:500px) {
+    .area {
+        flex-direction: column;
+    }
+    .left-column,
+    .right-column {
+        width: 100%;
+        align-items: center;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+    } 
+    .left-column {  
+        align-items: bottom; 
+        justify-content: end;
+    }
     
-    .tenis {
-        height: 400px;
-        width: 400px;
-        position: absolute;
-        top: 30%;
-        right: 05%;
-        transform: translateY(-50%);
-        z-index: 2;
-        background-color: transparent;
+    .right-column {
+        margin-top: 20px;
+        justify-content: start;
     }
-
-    #bola {
-        position: absolute;
-        z-index: 1;
-        height: 250px;
-        width: 250px;
-        background-color: rgba(199, 36, 36, 0.591);
-        border: 1px solid rgb(250, 250, 250);
-        opacity: 0.5;
-        border-radius: 50%;
-        top: 35%;
-        right: 15%;
-        transform: translateY(-50%);
-        display: inline-block;
-
-    }
-
-
-
-
- */
-
-
-
-
-
 }
