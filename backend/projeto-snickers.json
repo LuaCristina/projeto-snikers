@@ -1,0 +1,148 @@
+{
+    "header" : {
+        "title" : "Jogue para ganhar",
+        "subtitle" : "DOMINE A QUADRA NO SEU ESTILO",
+        "image": "",
+        "background" : {
+            "image": "",
+            "video" : ""
+        }
+    },
+    "products" : {
+        "title" : "Nossos produtos",
+        "items": [
+            {
+                "title": "Tênis",
+                "products" : [
+                    {
+                        "description" : "Basketball",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "LifeStyle",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "Perfomance",
+                        "image" : ""
+                    }
+                ]
+            },
+            {
+                "title": "Para o dia-a-dia",
+                "products" : [
+                    {
+                        "description" : "Camisetas",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "Moletons",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "Shorts",
+                        "image" : ""
+                    }
+                ]
+            },
+            {
+                "title": "Acessórios",
+                "products" : [
+                    {
+                        "description" : "Bonés",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "Meias",
+                        "image" : ""
+                    },
+                    {
+                        "description" : "Faixas",
+                        "image" : ""
+                    }
+                ]
+            }
+        ]
+    },
+    "topweek" : {
+        "title": "Destaques da Semana",
+        "items": [
+            {
+                "title": "Nike Zoom Freak 4",
+                "subtitle": "Valor R$ 1.899,99",
+                "image": ""
+            },
+            {
+                "title": "Air Penny 2x Stussy",
+                "subtitle": "Valor R$ 1.599,99",
+                "image": ""
+            },
+            {
+                "title": "Air Jordan 13",
+                "subtitle": "Valor R$ 1.899,99",
+                "image": ""
+            }
+        ]
+
+    },
+    "hightlight" : [
+        {
+            "title" : "O FENÔMENO NIKE AIR JORDAN",
+            "content" : "O primeiro tênis Air Jordan foi produzido para o ex-jogador de basquete do Hall of Fame Michael Jordan durante seu tempo com o Chicago Bulls no final de 1984 e lançado ao público em 1º de abril de 1985. Antigos e novos se familiarizam nesta versão artesanal do design Tinker Hatfield de 1989. O couro com relevo em grade para um toque premium, a camurça macia e as linhas de pontos extras na parte superior trazem o toque artesanal. E um forro macio e escovado torna este AJ4 mais feliz do que uma manhã preguiçosa. Então, da próxima vez que você calçar para completar um look inspirador, busque pelo seu novo favorito...",
+            "background" : {
+                "image": "",
+                "video" : ""
+            }
+        }
+    ],
+    "trademarks" : {
+        "title" : "Nossas principais marcas",
+        "background" : "",
+        "logos": [
+            "url", 
+            "url", 
+            "url", 
+            "url"
+        ]
+    },
+    "about" : {
+        "image" : "",
+        "title" : "Play IN'S SNK",
+        "content" : "A PLAY IN’s SNK nasceu para atender às diversas preferências e estilos, estamos atualizando constantemente a nossa coleção de sneakers, roupas e acessórios. Sempre acompanhando as últimas tendências e lançamentos desses modelos. Queremos que nossos clientes se sintam a vontade e confiantes de que encontrarão no site algo para se destacar no esporte, lazer ou na moda. Estamos super empolgados para embarcar nessa jogada com você, por isso convidamos você a explorar nossa loja online. Lembre-se: “O JOGO COMEÇA NO SEU ESTILO”. USE E SEJA PLAY IN’s SNK!!!!"
+    },
+
+    "faq" : {
+        "title" : "Perguntas Frequentes",
+        "items" : [
+            { 
+                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer" : ""
+            }, 
+            { 
+                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer" : ""
+            }, 
+            { 
+                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer" : ""
+            }
+        ]
+    },
+    "testimonials" : [
+        {
+            "name" : "Carlos Silva",
+            "content" : "Muito bom! Nota 10",
+            "rate": 5
+        },
+        {
+            "name" : "Carlos Silva",
+            "content" : "Muito bom! Nota 10",
+            "rate": 5
+        },
+        {
+            "name" : "Carlos Silva",
+            "content" : "Muito bom! Nota 10",
+            "rate": 5
+        }
+    ]
+}
