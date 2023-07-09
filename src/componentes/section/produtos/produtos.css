@@ -6,10 +6,17 @@
 
 .produtos-section-title { 
   width: 100%;
-  color: white;  
-  font-size: 36px;   
+  color: white;      
   text-align: center;
   margin-top: 32px;
+  color: #FFF; 
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Athiti;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
 }
 
 .produtos-title { 
@@ -17,6 +24,11 @@
   color: white;  
   font-size: 35px;    
   margin-top: 16px;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Athiti; 
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 
@@ -33,7 +45,7 @@
 
 @media screen and (max-width: 600px) {
   .produtos-section-title {
-    font-size: 24px;  
+    font-size: 30px;  
   }
   .produtos-container { 
     padding: 0% 5% 5% 5%;

@@ -8,22 +8,23 @@ import './produtos.css'
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green", width:'20px'}}
-      onClick={onClick}
-    />
+    <img src="https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/0/c0253.jpg"
+      onClick={onClick} 
+      className={className} 
+      style={{ ...style, display: "block",   width:'50px', height:'50px'}}
+    ></img>
+
   );
 }
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red", width:'20px' }}
-      onClick={onClick}
-    />
+    <img src="https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/0/c0251.jpg"
+      onClick={onClick} 
+      className={className} 
+      style={{ ...style, display: "block",   width:'50px', height:'50px'}}
+    ></img>
   );
 }
 
@@ -39,7 +40,7 @@ var settings = {
   prevArrow: <PrevArrow />,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1250,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -48,15 +49,15 @@ var settings = {
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 1240,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 1
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 700,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
