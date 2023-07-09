@@ -5,9 +5,9 @@
     "main": {
         "title": "Jogue para ganhar",
         "subtitle": "DOMINE A QUADRA NO SEU ESTILO",
-        "image": "",
+        "image": "resources/jordan.png",
         "background": {
-            "image": "resources/jordan.png",
+            "image": "resources/ScreenMain.png",
             "video": "resources/videoNBA.webm"
         }
     },
