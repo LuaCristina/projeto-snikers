@@ -5,8 +5,11 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    background-color: #000000ea;
     font-family: 'Athiti', sans-serif;
+}
+
+body{
+    background-color: #000000ea;
 }
 
 .borda {

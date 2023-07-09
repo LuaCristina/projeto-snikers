@@ -2,6 +2,8 @@
 
 img {
   width: 40px;
+  position: absolute;
+  z-index: 1000;
   margin: 5px 0 0 10px;
 }
 
