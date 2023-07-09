@@ -1,38 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Quantico:ital,wght@1,700&display=swap');
+
+
 .principal {
     height: 500px;
     width: 100%;
     background-image: url("../../../img/background.png");
     z-index: 6;
-
 }
 
 
-#tituloPrincipal{
+#tituloPrincipal {
     color: white;
-}
-.tenis {
-    height: 500px;
-    width: 500px;
+    height: 30px;
+    width: 30px;
     position: absolute;
-    top: 50%;
-    right: 0;
+    font-size: 40px;
+    top: 25%;
+    margin-left: 20%;
+    z-index: 2;
+}
+
+#subtitulo {
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 300px;
+    position: absolute;
+    font-size: 20px;
+    top: 55%;
+    margin-left: 20%;
+    z-index: 2;
+}
+
+.tenis {
+    width: 40vw;
+    position: absolute;
+    top: 35%;
+    right: 3%;
     transform: translateY(-50%);
     z-index: 2;
+    background-color: transparent;
 }
 
 #bola {
     position: absolute;
     z-index: 1;
-    height: 335px;
-    width: 335px;
-    background-color: green;
-    border: 1px solid white;
+    height: 28vw;
+    width: 28vw;
+    background-color: rgba(255, 255, 255, 0.591);
+    border: 1px solid rgb(250, 250, 250);
     opacity: 0.5;
     border-radius: 50%;
-    top: 50%;
-    right: 10px;
+    top: 37%;
+    right: 10%;
     transform: translateY(-50%);
     display: inline-block;
 
 }
 
+@media only screen and (min-width:600px) {
+    
+    
+    #tituloPrincipal {
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        font-size: 80px;
+        top: 10%;
+        margin-left: 20%;
+        z-index: 2;
+    }
+    
+    #subtitulo {
+        color: rgb(255, 255, 255);
+        height: 20px;
+        width: 300px;
+        position: absolute;
+        font-size: 20px;
+        top: 50%;
+        margin-left: 20%;
+        z-index: 2;
+    }
+
+    
+    .tenis {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 30%;
+        right: 05%;
+        transform: translateY(-50%);
+        z-index: 2;
+        background-color: transparent;
+    }
+
+    #bola {
+        position: absolute;
+        z-index: 1;
+        height: 250px;
+        width: 250px;
+        background-color: rgba(199, 36, 36, 0.591);
+        border: 1px solid rgb(250, 250, 250);
+        opacity: 0.5;
+        border-radius: 50%;
+        top: 35%;
+        right: 15%;
+        transform: translateY(-50%);
+        display: inline-block;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}

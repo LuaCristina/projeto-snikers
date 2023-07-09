@@ -16,7 +16,7 @@
 } */
 
 .card-image {
-    max-width: 300px;
+    max-width: 100px;
     aspect-ratio: 1/1;
     flex: 1;
     margin: auto;
@@ -32,6 +32,19 @@
     transform: translate(-50%, -50%);  
     text-align: center; 
     color: white;  
-    background-color: rgba(0, 0, 0, 0.5);  
-    padding: 10px; 
+    background-color: transparent;
+    padding: 10px 60px 10px 60px; 
+}
+
+.card-box{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    text-align: center;  
+    transform: translate(-50%, -50%);  
+    text-align: center; 
+    background-color: red;  
+    padding: 15px 28px 20px 190px; 
+
+
 }

@@ -1,27 +1,22 @@
-img{
-    width: 50px;
-    margin: 5px 0 0 10px;
+
+
+img {
+  width: 40px;
+  margin: 5px 0 0 10px;
 }
-  .mobile-text {
-    display: block;
-    color: white;
-    font-size: 10px;
-    margin: 5px 0 0 10px;
-  }
-  
+
+.desktop-text {
+  display: none;
+  color: white;
+  font-size: 100px;
+  margin: 5px 0 0 10px;
+  z-index: 100;
+}
+
+@media screen and (min-width: 600px) {
+
   .desktop-text {
-    display: none;
+    font-size: 25px;
     color: white;
-    font-size: 10px;
-    margin: 5px 0 0 10px;
   }
-  
-  @media screen and (min-width: 600px) {
-    .mobile-text {
-      display: none;
-    }
-  
-    .desktop-text {
-      display: block;
-    }
-  }
+}

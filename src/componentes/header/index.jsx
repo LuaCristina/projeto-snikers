@@ -6,7 +6,6 @@ export default function Header() {
         <div className="min">
             <img src={Logo} alt="Logo" />
             <h2 className="desktop-text">Play In's SNK</h2>
-            <h2 className="mobile-text">PSNK</h2>
         </div>
     );
 }

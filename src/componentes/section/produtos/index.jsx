@@ -4,6 +4,12 @@
 import Destaque1 from "@/img/destaque1.png"
 import Destaque2 from "@/img/destaque2.png"
 import Destaque3 from "@/img/destaque3.png"
+import Camisetas from "@/img/camisetas.png"
+import Moletons from "@/img/moletons.png"
+import Shorts from "@/img/shorts.png"
+import Bones from "@/img/bones.png"
+import Meias from "@/img/meias.png"
+import Faixas from "@/img/faixas.png"
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -15,56 +21,56 @@ import './produtos.css'
 
 const items = [
   {
-    title: "Title 1",
+    title: "Tênis",
     produtos : [
       {
-          title: 'Basketball 1',
+          title: 'Basketball',
           img:  Destaque1 
       },
       {
-          title: 'LifeStyle 1',
+          title: 'LifeStyle',
           img: Destaque2 
       },
       {
-          title: 'Performance 1',
+          title: 'Performance',
           img: Destaque3 
+      }
+    ]
+  },{
+    title: "Para o dia-a-dia",
+    produtos : [
+      {
+          title: 'Camisetas',
+          img:  Camisetas 
+      },
+      {
+          title: 'Moletons',
+          img: Moletons 
+      },
+      {
+          title: 'Shorts',
+          img: Shorts 
       }
     ]
   },
   {
-    title: "Title 2",
+    title: "Acessórios",
     produtos : [
       {
-          title: 'Basketball 2',
-          img:  Destaque1 
+          title: 'Bonés',
+          img:  Bones 
       },
       {
-          title: 'LifeStyle 2',
-          img: Destaque2 
+          title: 'Meias',
+          img: Meias 
       },
       {
-          title: 'Performance 2',
-          img: Destaque3 
+          title: 'Faixas',
+          img: Faixas 
       }
     ]
   },
-  {
-    title: "Title 3",
-    produtos : [
-      {
-          title: 'Basketball 3',
-          img:  Destaque1 
-      },
-      {
-          title: 'LifeStyle 3',
-          img: Destaque2 
-      },
-      {
-          title: 'Performance 3',
-          img: Destaque3 
-      }
-    ]
-  },
+  
 
 ]
 
@@ -73,7 +79,7 @@ function PrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, display: "block", background: "green", width:'20px'}}
       onClick={onClick}
     />
   );
@@ -84,7 +90,7 @@ function NextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "red", width:'20px' }}
       onClick={onClick}
     />
   );

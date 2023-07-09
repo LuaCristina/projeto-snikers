@@ -17,7 +17,7 @@ export default function Index() {
                         <img className="tenis" src={Tenis} />
                     </div>
                     <div>
-                        <Titulo2 titulo="DOMINE A QUADRA NO SEU ESTILO" />
+                        <h2 id="subtitulo">DOMINE A QUADRA NO SEU ESTILO</h2>
                     </div>
                 </div>
             </div>
