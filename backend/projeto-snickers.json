@@ -5,10 +5,10 @@
     "main": {
         "title": "Jogue para ganhar",
         "subtitle": "DOMINE A QUADRA NO SEU ESTILO",
-        "image": "resources/jordan.png",
+        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png",
         "background": {
-            "image": "resources/ScreenMain.png",
-            "video": "resources/videoNBA.webm"
+            "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/ScreenMain.png",
+            "video": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/videoNBA.webm"
         }
     },
     "products": {
