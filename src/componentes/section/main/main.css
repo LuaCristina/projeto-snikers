@@ -137,9 +137,15 @@
 }
 
 @media only screen and (max-width:500px) {
+    .principal{
+        height: 100vh;
+    }
+
     .area {
         flex-direction: column;
+        height: 100vh;
     }
+    
     .left-column,
     .right-column {
         width: 100%;
