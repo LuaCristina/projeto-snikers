@@ -4,10 +4,13 @@ const Index = (props) => {
     return ( 
         <div className="principal">
             <div className="background-container">
-                <video className="video-container" playsInline autoPlay loop muted>
-                    <source type="video/webm" src={props.data.background.video}/>
-                    <img className="image-container" src={props.data.background.image}/>
-                </video>
+                <video className="video-container"
+                    poster={props.data.background.image} playsInline autoPlay loop muted>
+                    {props.data.background.video.map((v, index) => 
+                        <source key={index} type={v.type} src={v.url}/>
+                    )}
+                    
+                </video> 
             </div>
             
             <div className="area">
