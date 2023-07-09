@@ -3,7 +3,7 @@
         "title": "Play In's SNK"
     },
     "main": {
-        "title": "Jogue para ganhar",
+        "title": "JOGUE PARA GANHAR",
         "subtitle": "DOMINE A QUADRA NO SEU ESTILO",
         "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png",
         "background": {
@@ -12,7 +12,7 @@
         }
     },
     "products": {
-        "title": "Nossos produtos",
+        "title": "NOSSOS PRODUTOS",
         "items": [
             {
                 "title": "Tênis",
@@ -57,11 +57,11 @@
                     },
                     {
                         "description": "Meias",
-                        "image": "resources/meias.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/meias.png"
                     },
                     {
                         "description": "Faixas",
-                        "image": "resources/faixas.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/faixas.png"
                     }
                 ]
             }
