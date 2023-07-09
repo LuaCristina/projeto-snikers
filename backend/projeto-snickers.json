@@ -84,17 +84,32 @@
             {
                 "title": "Nike Zoom Freak 4",
                 "subtitle": "Valor R$ 1.899,99",
-                "image": ""
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_basketball.png"
             },
             {
                 "title": "Air Penny 2x Stussy",
                 "subtitle": "Valor R$ 1.599,99",
-                "image": ""
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_basketball.png"
             },
             {
                 "title": "Air Jordan 13",
                 "subtitle": "Valor R$ 1.899,99",
-                "image": ""
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_basketball.png"
+            },
+            {
+                "title": "Nike Zoom Freak 4",
+                "subtitle": "Valor R$ 1.899,99",
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_performance.png"
+            },
+            {
+                "title": "Air Penny 2x Stussy",
+                "subtitle": "Valor R$ 1.599,99",
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_performance.png"
+            },
+            {
+                "title": "Air Jordan 13",
+                "subtitle": "Valor R$ 1.899,99",
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_performance.png"
             }
         ]
     },
