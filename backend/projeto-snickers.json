@@ -1,70 +1,73 @@
 {
-    "header" : {
-        "title" : "Jogue para ganhar",
-        "subtitle" : "DOMINE A QUADRA NO SEU ESTILO",
+    "header": {
+        "title": "Play In's SNK"
+    },
+    "main": {
+        "title": "Jogue para ganhar",
+        "subtitle": "DOMINE A QUADRA NO SEU ESTILO",
         "image": "",
-        "background" : {
+        "background": {
             "image": "resources/jordan.png",
-            "video" : "resources/videoNBA.webm"
+            "video": "resources/videoNBA.webm"
         }
     },
-    "products" : {
-        "title" : "Nossos produtos",
+    "products": {
+        "title": "Nossos produtos",
         "items": [
             {
                 "title": "Tênis",
-                "products" : [
+                "products": [
                     {
-                        "description" : "Basketball",
-                        "image" : "resources/tenis_basketball.png"
+                        "description": "Basketball",
+                        "image": "resources/tenis_basketball.png"
                     },
                     {
-                        "description" : "LifeStyle",
-                        "image" : "resources/tenis_lifestyle.png"
+                        "description": "LifeStyle",
+                        "image": "resources/tenis_lifestyle.png"
                     },
                     {
-                        "description" : "Perfomance",
-                        "image" : "resources/tenis_performance.png"
+                        "description": "Perfomance",
+                        "image": "resources/tenis_performance.png"
                     }
                 ]
             },
             {
                 "title": "Para o dia-a-dia",
-                "products" : [
+                "products": [
                     {
-                        "description" : "Camisetas",
-                        "image" : "resources/camisetas.png"
+                        "description": "Camisetas",
+                        "image": "resources/camisetas.png"
                     },
                     {
-                        "description" : "Moletons",
-                        "image" : "resources/moletons.png"
+                        "description": "Moletons",
+                        "image": "resources/moletons.png"
                     },
                     {
-                        "description" : "Shorts",
-                        "image" : "resources/shorts.png"
+                        "description": "Shorts",
+                        "image": "resources/shorts.png"
                     }
                 ]
             },
             {
                 "title": "Acessórios",
-                "products" : [
+                "products": [
                     {
-                        "description" : "Bonés",
-                        "image" : "resources/bones.png"
+                        "description": "Bonés",
+                        "image": "resources/bones.png"
                     },
                     {
-                        "description" : "Meias",
-                        "image" : "resources/meias.png"
+                        "description": "Meias",
+                        "image": "resources/meias.png"
                     },
                     {
-                        "description" : "Faixas",
-                        "image" : "resources/faixas.png"
+                        "description": "Faixas",
+                        "image": "resources/faixas.png"
                     }
                 ]
             }
         ]
     },
-    "topweek" : {
+    "topweek": {
         "title": "Destaques da Semana",
         "items": [
             {
@@ -83,65 +86,63 @@
                 "image": ""
             }
         ]
-
     },
-    "hightlight" : [
+    "hightlight": [
         {
-            "title" : "O FENÔMENO NIKE AIR JORDAN",
-            "content" : "O primeiro tênis Air Jordan foi produzido para o ex-jogador de basquete do Hall of Fame Michael Jordan durante seu tempo com o Chicago Bulls no final de 1984 e lançado ao público em 1º de abril de 1985. Antigos e novos se familiarizam nesta versão artesanal do design Tinker Hatfield de 1989. O couro com relevo em grade para um toque premium, a camurça macia e as linhas de pontos extras na parte superior trazem o toque artesanal. E um forro macio e escovado torna este AJ4 mais feliz do que uma manhã preguiçosa. Então, da próxima vez que você calçar para completar um look inspirador, busque pelo seu novo favorito...",
-            "background" : {
+            "title": "O FENÔMENO NIKE AIR JORDAN",
+            "content": "O primeiro tênis Air Jordan foi produzido para o ex-jogador de basquete do Hall of Fame Michael Jordan durante seu tempo com o Chicago Bulls no final de 1984 e lançado ao público em 1º de abril de 1985. Antigos e novos se familiarizam nesta versão artesanal do design Tinker Hatfield de 1989. O couro com relevo em grade para um toque premium, a camurça macia e as linhas de pontos extras na parte superior trazem o toque artesanal. E um forro macio e escovado torna este AJ4 mais feliz do que uma manhã preguiçosa. Então, da próxima vez que você calçar para completar um look inspirador, busque pelo seu novo favorito...",
+            "background": {
                 "image": "",
-                "video" : ""
+                "video": ""
             }
         }
     ],
-    "trademarks" : {
-        "title" : "Nossas principais marcas",
-        "background" : "",
+    "trademarks": {
+        "title": "Nossas principais marcas",
+        "background": "",
         "logos": [
-            "url", 
-            "url", 
-            "url", 
+            "url",
+            "url",
+            "url",
             "url"
         ]
     },
-    "about" : {
-        "image" : "",
-        "title" : "Play IN'S SNK",
-        "content" : "A PLAY IN’s SNK nasceu para atender às diversas preferências e estilos, estamos atualizando constantemente a nossa coleção de sneakers, roupas e acessórios. Sempre acompanhando as últimas tendências e lançamentos desses modelos. Queremos que nossos clientes se sintam a vontade e confiantes de que encontrarão no site algo para se destacar no esporte, lazer ou na moda. Estamos super empolgados para embarcar nessa jogada com você, por isso convidamos você a explorar nossa loja online. Lembre-se: “O JOGO COMEÇA NO SEU ESTILO”. USE E SEJA PLAY IN’s SNK!!!!"
+    "about": {
+        "image": "",
+        "title": "Play IN'S SNK",
+        "content": "A PLAY IN’s SNK nasceu para atender às diversas preferências e estilos, estamos atualizando constantemente a nossa coleção de sneakers, roupas e acessórios. Sempre acompanhando as últimas tendências e lançamentos desses modelos. Queremos que nossos clientes se sintam a vontade e confiantes de que encontrarão no site algo para se destacar no esporte, lazer ou na moda. Estamos super empolgados para embarcar nessa jogada com você, por isso convidamos você a explorar nossa loja online. Lembre-se: “O JOGO COMEÇA NO SEU ESTILO”. USE E SEJA PLAY IN’s SNK!!!!"
     },
-
-    "faq" : {
-        "title" : "Perguntas Frequentes",
-        "items" : [
-            { 
-                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer" : ""
-            }, 
-            { 
-                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer" : ""
-            }, 
-            { 
-                "question" : "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer" : ""
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "items": [
+            {
+                "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer": ""
+            },
+            {
+                "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer": ""
+            },
+            {
+                "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
+                "answer": ""
             }
         ]
     },
-    "testimonials" : [
+    "testimonials": [
         {
-            "name" : "Carlos Silva",
-            "content" : "Muito bom! Nota 10",
+            "name": "Carlos Silva",
+            "content": "Muito bom! Nota 10",
             "rate": 5
         },
         {
-            "name" : "Carlos Silva",
-            "content" : "Muito bom! Nota 10",
+            "name": "Carlos Silva",
+            "content": "Muito bom! Nota 10",
             "rate": 5
         },
         {
-            "name" : "Carlos Silva",
-            "content" : "Muito bom! Nota 10",
+            "name": "Carlos Silva",
+            "content": "Muito bom! Nota 10",
             "rate": 5
         }
     ]
