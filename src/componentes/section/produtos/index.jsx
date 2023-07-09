@@ -1,78 +1,9 @@
-// import '@/componentes/section/produtos/produtos.scss'
-// import Card from './components/Card'; 
-// import React, { useState, useEffect } from 'react'
-import Destaque1 from "@/img/destaque1.png"
-import Destaque2 from "@/img/destaque2.png"
-import Destaque3 from "@/img/destaque3.png"
-import Camisetas from "@/img/camisetas.png"
-import Moletons from "@/img/moletons.png"
-import Shorts from "@/img/shorts.png"
-import Bones from "@/img/bones.png"
-import Meias from "@/img/meias.png"
-import Faixas from "@/img/faixas.png"
-
+import { v4 as uuidv4 } from 'uuid';
 import Slider from "react-slick";
+import Card from './components/Card';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import Card from './components/Card';
-
 import './produtos.css'
-
-const items = [
-  {
-    title: "Tênis",
-    produtos : [
-      {
-          title: 'Basketball',
-          img:  Destaque1 
-      },
-      {
-          title: 'LifeStyle',
-          img: Destaque2 
-      },
-      {
-          title: 'Performance',
-          img: Destaque3 
-      }
-    ]
-  },{
-    title: "Para o dia-a-dia",
-    produtos : [
-      {
-          title: 'Camisetas',
-          img:  Camisetas 
-      },
-      {
-          title: 'Moletons',
-          img: Moletons 
-      },
-      {
-          title: 'Shorts',
-          img: Shorts 
-      }
-    ]
-  },
-  {
-    title: "Acessórios",
-    produtos : [
-      {
-          title: 'Bonés',
-          img:  Bones 
-      },
-      {
-          title: 'Meias',
-          img: Meias 
-      },
-      {
-          title: 'Faixas',
-          img: Faixas 
-      }
-    ]
-  },
-  
-
-]
 
 function PrevArrow(props) {
   const { className, style, onClick } = props;
@@ -134,31 +65,26 @@ var settings = {
   ]
 };
 
-
-export default function Produtos() {
-
-
+const Produtos = (props) => {
     return (
         <section>
             <div className="produtos-container">
-
-              <div className="produtos-section-title">NOSSOS PRODUTOS</div>
-
-              {items.map((i, index) => 
+              <div className="produtos-section-title">{props.data.title}</div>
+              {props.data.items.map((i, index) => 
                 <>
                   <div className="produtos-title"> {i.title} </div>
                   <Slider {...settings} className="slider">
-                    {i.produtos.map((p, index) => 
-                      <div>
-                        <Card title={p.title} image={p.img}/>
+                    {i.products.map((p, index) => 
+                      <div key={index}>
+                        <Card title={p.description} image={p.image}/>
                       </div>
                     )}
                   </Slider> 
                 </>
               )}
-
             </div>
         </section>
     );
 }
 
+export default Produtos;

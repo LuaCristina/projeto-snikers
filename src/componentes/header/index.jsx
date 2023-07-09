@@ -1,7 +1,7 @@
 import '@/componentes/header/header.css';
 import Logo from '@/img/logo.png'
 
-export default function Header() {
+const Header = (props) => {
     return (
         <div className="min">
             <img src={Logo} alt="Logo" />
@@ -9,3 +9,5 @@ export default function Header() {
         </div>
     );
 }
+
+export default Header;
