@@ -4,8 +4,8 @@
         "subtitle" : "DOMINE A QUADRA NO SEU ESTILO",
         "image": "",
         "background" : {
-            "image": "",
-            "video" : ""
+            "image": "resources/jordan.png",
+            "video" : "resources/videoNBA.webm"
         }
     },
     "products" : {
@@ -16,15 +16,15 @@
                 "products" : [
                     {
                         "description" : "Basketball",
-                        "image" : ""
+                        "image" : "resources/tenis_basketball.png"
                     },
                     {
                         "description" : "LifeStyle",
-                        "image" : ""
+                        "image" : "resources/tenis_lifestyle.png"
                     },
                     {
                         "description" : "Perfomance",
-                        "image" : ""
+                        "image" : "resources/tenis_performance.png"
                     }
                 ]
             },
@@ -33,15 +33,15 @@
                 "products" : [
                     {
                         "description" : "Camisetas",
-                        "image" : ""
+                        "image" : "resources/camisetas.png"
                     },
                     {
                         "description" : "Moletons",
-                        "image" : ""
+                        "image" : "resources/moletons.png"
                     },
                     {
                         "description" : "Shorts",
-                        "image" : ""
+                        "image" : "resources/shorts.png"
                     }
                 ]
             },
@@ -50,15 +50,15 @@
                 "products" : [
                     {
                         "description" : "Bonés",
-                        "image" : ""
+                        "image" : "resources/bones.png"
                     },
                     {
                         "description" : "Meias",
-                        "image" : ""
+                        "image" : "resources/meias.png"
                     },
                     {
                         "description" : "Faixas",
-                        "image" : ""
+                        "image" : "resources/faixas.png"
                     }
                 ]
             }
