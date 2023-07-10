@@ -41,7 +41,7 @@ const App = () => {
             <Main data={data.main}/>
             <Produtos data={data.products}/>
             <Destaques data={data.topweek}/>
-            <Historia data={data.hightlight}/>
+            {/* <Historia data={data.hightlight}/> */}
             <Marcas data={data.trademarks}/>
           </Fragment>
         )

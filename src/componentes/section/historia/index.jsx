@@ -6,21 +6,21 @@ const Historia = (props) => {
     return (
         <section>
             <div className="areaPrincipalHistoria">
-                <div className='tituloSessaoHistoria'>{props.data.title}</div>
                 {props.data.map((item, index) => (
-                    <div className="columns-container" key={index}>
-                        <div className="esquerda-column">
-                            <img className="jordan" src={item.background.image} />
+                    <>
+                        <div className='tituloSessaoHistoria'>{item.title}</div>
+                        <div className="columns-container" key={index}>
+                            <div className="esquerda-column">
+                                <img className="jordan" src={item.background.image} />
+                            </div>
+                            <div className="direita-column">
+                                <p className="texto-jordan">{item.content}</p>
+                            </div>
                         </div>
-                        <div className="direita-column">
-                            <p className="texto-jordan">{item.content}</p>
-                        </div>
-                    </div>
+                    </>
                 ))}
             </div>
         </section>
-
-
 
     );
 };
