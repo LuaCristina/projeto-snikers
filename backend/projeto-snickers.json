@@ -125,14 +125,14 @@
     "trademarks": {
         "title": "Nossas principais marcas",
          "background": {
-            "left": "",
-            "right": ""
+            "left": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/left.png",
+            "right": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/right.png"
         },
         "logos": [
-            "url",
-            "url",
-            "url",
-            "url"
+            "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logoAdidas.png",
+            "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logoAirjordan.png",
+            "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logoUnderArmour.png",
+            "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logoNike.png"
         ]
     },
     "about": {
