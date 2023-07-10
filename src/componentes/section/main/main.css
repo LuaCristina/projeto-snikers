@@ -98,7 +98,7 @@
     z-index: 20;
     top: 0;
     left: 0;
-    transform: scale(1.75);
+    transform: scale(1.50); /* isso que aumenta a lateral do video */
 }
 
 #bola {

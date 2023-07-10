@@ -4,20 +4,23 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center; 
+  align-items: center;
 }
 
 .tituloSessaoHistoria {
-  flex-basis: 100%; /* Adicionado */
-  text-align: center; /* Adicionado */
-  margin-bottom: 32px; /* Adicionado */
+  flex-basis: 100%;
+  /* Adicionado */
+  text-align: center;
+  /* Adicionado */
+  margin-bottom: 32px;
+  /* Adicionado */
   font-size: 30px;
   color: white;
   background-color: blue;
 }
 
 .columns-container {
-  margin-top: -50px;
+  margin: 20px;
   display: flex;
   width: 90%;
 
@@ -28,6 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 15px;
 }
 
 .direita-column {
@@ -51,70 +55,78 @@
 }
 
 .outra-div {
-  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
 }
 
-.div1 {
-  width: 50%;
+.tenis2 {
   height: 100px;
-  background-color: blue;
+  width: 100px;
+  margin-right: 20px;
+  border: 1px solid red;
 }
 
 .div2 {
-  width: 50%;
   height: 100px;
-  background-color: orange;
+  width: 100px;
+  flex: 1;
+  background-color: blue;
+}
+
+.ver-mais {
+  display: none;
 }
 
 
-/* @media only screen and (max-width:800px) {
-  #tituloPrincipal {
-      font-size: 50px; 
-  }
-  #subtitulo {
-      font-size: 15px;
+
+@media only screen and (max-width:700px) {
+  .jordan {
+    transform: scale(1.3);
   }
 
-  .right-column { 
-      padding-left: 50px;  
-  }     
-  .left-column { 
-      margin-left: -25px;  
-  }  
-  .imagemPrincipal {
-      height: 200px;
-      width: 200px; 
-  }  
+  .full-text {
+    font-size: 07px;
+  }
 }
 
 @media only screen and (max-width:500px) {
-  .principal{
-      height: 100vh;
+  .jordan {
+    transform: scale(0.9);
+
   }
 
-  .area {
-      flex-direction: column;
-      height: 100vh;
+  .direita-column {
+    width: 300px;
+    height: 300px;
+    font-size: 10px;
   }
-  
-  .left-column,
-  .right-column {
-      width: 100%;
-      align-items: center;
-      height: 50%;
-      padding: 0px;
-      margin: 0px;
-  } 
-  .left-column {  
-      align-items: bottom; 
-      justify-content: end;
+
+  .full-text {
+    font-size: 06px;
   }
-  
-  .right-column {
-      margin-top: 20px;
-      justify-content: start;
+
+  .texto-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+    /* Defina a altura máxima desejada */
   }
-} */
+
+  .ver-mais {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
