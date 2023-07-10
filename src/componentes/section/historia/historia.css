@@ -1,10 +1,105 @@
-.historia-container {
-  height: 500px;
+.areaPrincipalHistoria {
   width: 100%;
-  background-color:green;
+  height: 600px;
+  z-index: 1000;
   display: flex;
-  flex-wrap: wrap;
+  background-color: red;
   justify-content: center;
-  align-items: center;
-  position: relative; 
+  flex-direction: row;
 }
+
+.left-column,
+.right-column {
+  flex-basis: 50%; /* Alterado */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.esquerda-column {
+  background-color: green;
+  width: 50%;
+  height: 50%;
+}
+
+.direita-column {
+  background-color: yellow;
+}
+
+
+.tituloPrincipal {
+  color: white;
+  font-size: 50px; 
+  font-family: 'Quantico', sans-serif;
+  font-weight: normal;
+  margin-top: 32px;
+  white-space: pre-line;
+  line-height: 1;
+  text-shadow: darkgray 2px 2px 10px;
+}
+
+.texto-jordan{
+  background-color: white;
+}
+
+.jordan {
+  height: 100px;
+  width: 100px; 
+  z-index: 20;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  transform: scale(1.75);
+  position: relative;
+}
+
+
+/* @media only screen and (max-width:800px) {
+  #tituloPrincipal {
+      font-size: 50px; 
+  }
+  #subtitulo {
+      font-size: 15px;
+  }
+
+  .right-column { 
+      padding-left: 50px;  
+  }     
+  .left-column { 
+      margin-left: -25px;  
+  }  
+  .imagemPrincipal {
+      height: 200px;
+      width: 200px; 
+  }  
+}
+
+@media only screen and (max-width:500px) {
+  .principal{
+      height: 100vh;
+  }
+
+  .area {
+      flex-direction: column;
+      height: 100vh;
+  }
+  
+  .left-column,
+  .right-column {
+      width: 100%;
+      align-items: center;
+      height: 50%;
+      padding: 0px;
+      margin: 0px;
+  } 
+  .left-column {  
+      align-items: bottom; 
+      justify-content: end;
+  }
+  
+  .right-column {
+      margin-top: 20px;
+      justify-content: start;
+  }
+} */

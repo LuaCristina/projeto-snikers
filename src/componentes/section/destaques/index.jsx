@@ -1,42 +1,10 @@
 import '@/componentes/section/destaques/destaques.css'
-
-import Destaque1 from "@/img/destaque1.png"
-import Destaque2 from "@/img/destaque2.png"
-import Destaque3 from "@/img/destaque3.png"
-import Camisetas from "@/img/camisetas.png"
-import Moletons from "@/img/moletons.png"
-import Shorts from "@/img/shorts.png"
-import Bones from "@/img/bones.png"
-import Meias from "@/img/meias.png"
-import Faixas from "@/img/faixas.png"
-
+ 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Card from 'src/componentes/section/destaques/componentes/CardRedondo.jsx';
-
-
-const items = [
-  {
-    title: "Tênis",
-    produtos : [
-      {
-          title: 'Basketball',
-          img:  Destaque1 
-      },
-      {
-          title: 'LifeStyle',
-          img: Destaque2 
-      },
-      {
-          title: 'Performance',
-          img: Destaque3 
-      }
-    ]
-  }
-
-]
+import CardRedondo from 'src/componentes/section/destaques/componentes/CardRedondo.jsx';
 
 function PrevArrow(props) {
   const { className, style, onClick } = props;
@@ -98,33 +66,28 @@ var settings = {
   ]
 };
 
-
-export default function Produtos() {
-
-
+const Destaques = (props) => {
     return (
         <section>
             <div className="produtos-container">
 
-              <div className="produtos-section-title">DESTAQUES DA SEMANA</div>
+              <div className="produtos-section-title">{props.data.title}</div>
 
-              {items.map((i, index) => 
-                <>
-                  <div className="produtos-title"> {i.title} </div>
-                  <Slider {...settings} className="slider">
-                    {i.produtos.map((p, index) => 
-                      <div>
-                        <Card title={p.title} image={p.img}/>
-                      </div>
-                    )}
-                  </Slider> 
-                </>
-              )}
+            
+              <Slider {...settings} className="slider">
+              {props.data.items.map((i, index) => 
+                  <div>
+                    <CardRedondo title={i.title} image={i.image} subtitle={i.subtitle}/>
+                  </div>
+                )}
+              </Slider>  
 
             </div>
         </section>
     );
 }
+
+export default Destaques;
 
 
 
