@@ -4,7 +4,15 @@ import Main from '@/componentes/section/main';
 import Produtos from '@/componentes/section/produtos';
 import Destaques from '@/componentes/section/destaques';
 import Historia from '@/componentes/section/historia';
+import FAQ from '@/componentes/section/FAQ';
 import Marcas from '@/componentes/section/marcas';
+import About from '@/componentes/section/about';
+import Formulario from '@/componentes/section/formulario';
+
+
+
+// import Testemonials from '@/componentes/section/testemonials';
+
 
 const App = () => {
 
@@ -36,25 +44,30 @@ const App = () => {
         isLoading ? (
           <p>Carregando...</p>
         ) : (
-          <Fragment>
+         
+<Fragment>
             <Header data={data.header} />
             <Main data={data.main} />
             <Produtos data={data.products} />
             <Destaques data={data.topweek} />
             <Historia data={data.hightlight} />
             <Marcas data={data.trademarks} />
-            
-            {/* <FAQ data={data.faq}/> */}
-
-            {/* <div className="areaPrincipalHistoria">
-              <div style={{ width: '50%' }}>
-                <FAQ data={data.faq} />
-              </div>
-              <div style={{ width: '50%' }}>
+            <div className='divisoria'>
+              <div style={{ width: '50%', height: '100%'  }}>
                 <About data={data.about} />
               </div>
-            </div>ß */}
-            {/* <Testmonials data={data.testmonials} /> */}
+              <div style={{ width: '50%', height: '100%'  }}>
+                <FAQ data={data.faq} />
+              </div>
+            </div>
+            <div className='divisoriaForm'>
+              <div style={{ width: '50%', height: '100%'  }}>
+                <Formulario data={data.about} />
+              </div>
+              <div style={{ width: '50%', height: '100%'  }}>
+                <FAQ data={data.faq} />
+              </div>
+            </div>
           </Fragment>
         )
       }

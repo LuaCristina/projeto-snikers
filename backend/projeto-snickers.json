@@ -140,7 +140,7 @@
         ]
     },
     "about": {
-        "image": "",
+        "image":             "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logo_faq.png",
         "title": "Play IN'S SNK",
         "content": "A PLAY IN’s SNK nasceu para atender às diversas preferências e estilos, estamos atualizando constantemente a nossa coleção de sneakers, roupas e acessórios. Sempre acompanhando as últimas tendências e lançamentos desses modelos. Queremos que nossos clientes se sintam a vontade e confiantes de que encontrarão no site algo para se destacar no esporte, lazer ou na moda. Estamos super empolgados para embarcar nessa jogada com você, por isso convidamos você a explorar nossa loja online. Lembre-se: “O JOGO COMEÇA NO SEU ESTILO”. USE E SEJA PLAY IN’s SNK!!!!"
     },

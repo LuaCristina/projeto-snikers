@@ -1,5 +1,11 @@
 
 
+.faq-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 .faq-item {
   margin-bottom: 20px;
 }
@@ -7,6 +13,7 @@
 .faq-question {
   font-weight: bold;
   cursor: pointer;
+  font-size: 15px
 }
 
 .faq-answer {
