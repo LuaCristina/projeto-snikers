@@ -1,6 +1,6 @@
 .areaPrincipalHistoria {
   width: 100%;
-  height: 600px;
+  height:100%;
   z-index: 1000;
   display: flex;
   background-color: red;
@@ -10,18 +10,18 @@
 
 .left-column,
 .right-column {
-  flex-basis: 50%; /* Alterado */
-  height: 100%;
+  width: 50%;
+  height: 100%; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
 }
 
-.esquerda-column {
+/* .esquerda-column {
   background-color: green;
   width: 50%;
   height: 50%;
-}
+} */
 
 .direita-column {
   background-color: yellow;
@@ -49,7 +49,6 @@
   z-index: 20;
   top: 0;
   left: 0;
-  background-color: blueviolet;
   transform: scale(1.75);
   position: relative;
 }

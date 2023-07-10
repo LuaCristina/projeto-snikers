@@ -10,11 +10,9 @@ const Historia = (props) => {
             {props.data.map((item, index) => (
                 <div key={index}>
                     <h1 className="tituloPrincipal">{item.title}</h1>
-
-                    <div className="esquerda-column">
-                            <img className="jordan" src={item.background.image}/>
+                    <div className="jordan">
+                            <img  src={item.background.image}/>
                     </div>
-
                     <div className="direita-column">
                         <div className="imagemPrincipal">
                             <p className='texto-jordan'>{item.content}</p>
