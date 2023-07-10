@@ -8,10 +8,7 @@ import FAQ from '@/componentes/section/FAQ';
 import Marcas from '@/componentes/section/marcas';
 import About from '@/componentes/section/about';
 import Formulario from '@/componentes/section/formulario';
-
-
-
-// import Testemonials from '@/componentes/section/testemonials';
+import Testemonials from '@/componentes/section/testemonials';
 
 
 const App = () => {
@@ -65,7 +62,9 @@ const App = () => {
                 <Formulario data={data.about} />
               </div>
               <div style={{ width: '50%', height: '100%'  }}>
-                <FAQ data={data.faq} />
+                <Testemonials data={data.testimonials} />
+                {/* <Formulario data={data.about} /> */}
+
               </div>
             </div>
           </Fragment>
@@ -75,4 +74,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

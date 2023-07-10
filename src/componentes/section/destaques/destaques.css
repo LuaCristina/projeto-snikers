@@ -16,3 +16,14 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+@media screen and (max-width: 600px) {
+  .destaques-section-title { 
+    font-size: 20px;  
+  }
+  .destaques-container { 
+    padding: 0% 5% 5% 5%;
+    width: 200px;
+    height: 200px;
+  }
+}
