@@ -8,8 +8,8 @@
   flex-direction: row;
 }
 
-.left-column,
-.right-column {
+.direita-column,
+.esquerda-column {
   width: 50%;
   height: 100%; 
   display: flex;
