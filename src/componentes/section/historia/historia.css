@@ -17,37 +17,56 @@
 }
 
 .columns-container {
+  margin-top: -50px;
   display: flex;
   width: 90%;
+
 }
 
 .esquerda-column {
-  background-color: green;
-  flex-basis: 50%;
+  flex-basis: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .direita-column {
-  background-color: yellow;
-  flex-basis: 50%;
+  color: white;
+  flex-basis: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.texto-jordan {
-  background-color: white;
+  padding: 15px;
   text-align: justify;
 }
+
 
 .jordan {
   height: 150px;
   width: 150px;
   z-index: 20;
   transform: scale(1.75);
+  border-radius: 20px;
+}
+
+.outra-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+.div2 {
+  width: 50%;
+  height: 100px;
+  background-color: orange;
 }
 
 
