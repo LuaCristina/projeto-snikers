@@ -8,7 +8,7 @@ const Historia = (props) => {
             <div className="areaPrincipalHistoria">
                 {props.data.map((item, index) => (
                     <>
-                        <div className='tituloSessaoHistoria'>{item.title}</div>
+                        <div className='tituloSessaoHistoria'><h1>{item.title}</h1></div>
                         <div className="columns-container" key={index}>
                             <div className="esquerda-column">
                                 <img className="jordan" src={item.background.image} />
