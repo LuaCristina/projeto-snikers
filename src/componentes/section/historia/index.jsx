@@ -1,16 +1,18 @@
-import '@/componentes/section/historia/historia.css'
+import '@/componentes/section/historia/historia.css';
+
 const Historia = (props) => {
-    return (
-      <section>
-        <div className="areaPrincipalHistoria">
-          {/* Conteúdo do contêiner */}
-          {props.data.map((item, index) => (
-            <div className="columns-container" key={index}>
+  return (
+    <section>
+      <div className="areaPrincipalHistoria">
+        {/* Conteúdo do contêiner */}
+        {props.data.map((item, index) => (
+          <div key={index}>
+            <h1 classe="tituloSessaoHistoria">{item.title}</h1>
+            <div className="columns-container">
               <div className="esquerda-column">
                 <img className="jordan" src={item.background.image} alt="" />
               </div>
               <div className="direita-column">
-                <h1 className="tituloPrincipal">{item.title}</h1>
                 <p className="texto-jordan">{item.content}</p>
                 <div className="outra-div">
                   {/* <div className="tenis2"><img  src={item.itens.image} alt="" /></div> */}
@@ -18,11 +20,13 @@ const Historia = (props) => {
                 </div>
               </div>
             </div>
-          ))}
-        </div>
-      </section>
-    );
-  };
-  
-  export default Historia;
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Historia;
+
   

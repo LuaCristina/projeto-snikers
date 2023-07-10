@@ -37,12 +37,24 @@ const App = () => {
           <p>Carregando...</p>
         ) : (
           <Fragment>
-            <Header data={data.header}/>
-            <Main data={data.main}/>
-            <Produtos data={data.products}/>
-            <Destaques data={data.topweek}/>
-            <Historia data={data.hightlight}/>
-            <Marcas data={data.trademarks}/>
+            <Header data={data.header} />
+            <Main data={data.main} />
+            <Produtos data={data.products} />
+            <Destaques data={data.topweek} />
+            <Historia data={data.hightlight} />
+            <Marcas data={data.trademarks} />
+            
+            {/* <FAQ data={data.faq}/> */}
+
+            {/* <div className="areaPrincipalHistoria">
+              <div style={{ width: '50%' }}>
+                <FAQ data={data.faq} />
+              </div>
+              <div style={{ width: '50%' }}>
+                <About data={data.about} />
+              </div>
+            </div>ß */}
+            {/* <Testmonials data={data.testmonials} /> */}
           </Fragment>
         )
       }

@@ -3,8 +3,11 @@
   height: 500px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
+  text-align: center;
+  color: white;
+  background-color: red;
+  padding: auto;
 }
 
 .tituloSessaoHistoria {
@@ -14,13 +17,13 @@
   /* Adicionado */
   margin-bottom: 32px;
   /* Adicionado */
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   background-color: blue;
 }
 
 .columns-container {
-  margin: 20px;
+  margin: auto;
   display: flex;
   width: 90%;
 
@@ -47,8 +50,8 @@
 
 
 .jordan {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   z-index: 20;
   transform: scale(1.75);
   border-radius: 20px;
@@ -91,42 +94,41 @@
   .full-text {
     font-size: 07px;
   }
+  .areaPrincipalHistoria {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: purple;
+  }
+
+.tituloSessaoHistoria{
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+
 }
 
 @media only screen and (max-width:500px) {
-  .jordan {
-    transform: scale(0.9);
 
+  .tituloSessaoHistoria{
+    font-size: 20px;
+    margin-top: 5px;
   }
 
-  .direita-column {
-    width: 300px;
-    height: 300px;
-    font-size: 10px;
+  .areaPrincipalHistoria {
+    flex-direction: column;
   }
 
-  .full-text {
-    font-size: 06px;
+  .esquerda-column {
+    order:1;
   }
 
-  .texto-container {
-    position: relative;
-    overflow: hidden;
-    max-height: 200px;
-    /* Defina a altura máxima desejada */
-  }
-
-  .ver-mais {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
+  .texto-jordan {
+    order: 1;
   }
 }

@@ -149,15 +149,24 @@
         "items": [
             {
                 "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer": ""
+                "answer": "Não possuímos loja física, mas nosso escritório fica localizado na cidade de Uberlândia/MG"
             },
             {
-                "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer": ""
+                "question": "Posso retirar os produtos presencialmente?",
+                "answer": "No momento, ainda não trabalhamos com as retiradas presencialmente, pedidos são enviados"
             },
             {
-                "question": "Possuem loja física? Aonde fica localizada a Play IN’s SNK?",
-                "answer": ""
+                "question": "Qual o prazo de recebimento da mercadoria?",
+                "answer": "Após a confirmação de pagamento, a entrega é realizada em até 5 dias úteis, de acordo com a localizaçao do comprador"
+            }
+            ,
+            {
+                "question": "Os produtos são originais?",
+                "answer": "Sim, os produtos são originais e importados"
+            },
+            {
+                "question": "Trabalham com produtos pronta entrega e encomenda?",
+                "answer": "Temos produtos em estoque e atendemos sob encomenda, consulte os modelos disponíveis."
             }
         ]
     },

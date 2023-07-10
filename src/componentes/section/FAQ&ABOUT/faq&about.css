@@ -1,0 +1,18 @@
+
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq-answer.show {
+  display: block;
+}
