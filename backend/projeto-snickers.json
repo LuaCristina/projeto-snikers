@@ -124,8 +124,10 @@
     ],
     "trademarks": {
         "title": "Nossas principais marcas",
-        "image":  "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/marcas.png",
-        "background": "",
+         "background": {
+            "left": "",
+            "right": ""
+        },
         "logos": [
             "url",
             "url",
