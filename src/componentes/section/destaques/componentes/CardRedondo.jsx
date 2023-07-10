@@ -11,7 +11,7 @@ const CardRedondo = (props) => {
       <button className="cardredondo-button">
         Quero
         <span>
-          <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png"/>    
+          <img className="icon" src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/whatsapp2.png"/>    
         </span>
       </button>
     </div>

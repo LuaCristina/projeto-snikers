@@ -40,7 +40,7 @@ var settings = {
   prevArrow: <PrevArrow />,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1250,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -49,15 +49,15 @@ var settings = {
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 1240,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 1
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 700,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -69,11 +69,10 @@ var settings = {
 const Destaques = (props) => {
     return (
         <section>
-            <div className="produtos-container">
+            <div className="destaques-container">
 
-              <div className="produtos-section-title">{props.data.title}</div>
+              <div className="destaques-section-title">{props.data.title}</div>
 
-            
               <Slider {...settings} className="slider">
               {props.data.items.map((i, index) => 
                   <div>
