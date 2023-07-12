@@ -12,18 +12,29 @@ const FormularioContato = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aqui você pode adicionar a lógica para enviar os dados do formulário
         console.log("Dados enviados:", { nome, email, telefone, mensagem });
-        // Limpar os campos após o envio
         setNome("");
         setEmail("");
         setTelefone("");
         setMensagem("");
     };
 
+    function sendEmail(e){
+        e.preventDefault();
+
+        if (nome === '' | email === '' | telefone  === '' | mensagem === '' ){
+             alert("preencha todos os campos");
+             return;
+        }
+
+        alert("teste")
+    }
+
+
+
     return (
 
-        <form className="formulario-contato" onSubmit={handleSubmit}>
+        <form className="formulario-contato" onSubmit={sendEmail}>
             <h2 className='tituloForm'>Compre Conosco</h2>
             <p className='subtituloForm'>Você tem alguma dúvida? Já escolheu o seu produto? Entre em contato conosco</p>
             <hr />

@@ -30,15 +30,18 @@
                 "products": [
                     {
                         "description": "Basketball",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_basketball.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_basketball.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "LifeStyle",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_lifestyle.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_lifestyle.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "Perfomance",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_performance.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/tenis_performance.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     }
                 ]
             },
@@ -47,15 +50,18 @@
                 "products": [
                     {
                         "description": "Camisetas",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/camisetas.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/camisetas.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "Moletons",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/moletons.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/moletons.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "Shorts",
-                        "image": " https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png"
+                        "image": " https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     }
                 ]
             },
@@ -64,15 +70,18 @@
                 "products": [
                     {
                         "description": "Bonés",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/bones.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/bones.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "Meias",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/meias.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/meias.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     },
                     {
                         "description": "Faixas",
-                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/faixas.png"
+                        "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/faixas.png",
+                        "url" : "https://drive.google.com/file/d/10YOmLU0O3x08LvjWkuMK7h-RLgXP4tAw/view"
                     }
                 ]
             }
@@ -201,14 +210,13 @@
 
             },
             {
-                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resourcesLinkedIn.png",
+                "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/LinkedIn.png",
                 "url" : "https://"
             }
         ]
 
     
     }
-
 
 
 

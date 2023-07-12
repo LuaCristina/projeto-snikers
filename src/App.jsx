@@ -9,8 +9,8 @@ import Marcas from '@/componentes/section/marcas';
 import About from '@/componentes/section/about';
 import Formulario from '@/componentes/section/formulario';
 import Testemonials from '@/componentes/section/testemonials';
-import Footer from './componentes/section/footer/index';
-
+import Footer from '@/componentes/section/footer/index';
+import WhatsApp from '@/componentes/commons/WhatsApp';
 
 const App = () => {
 
@@ -68,6 +68,7 @@ const App = () => {
               </div>
             </div>
             <Footer data={data.footer}/>
+            <WhatsApp/>
           </Fragment>
         )
       }
