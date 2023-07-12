@@ -36,7 +36,6 @@ section {
 
 .divisoriaForm {
     max-width: 1280px;
-
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -46,6 +45,21 @@ section {
     margin: 30px auto; 
     padding: 50px;
 
+}
+
+.divisor {
+    width: 50%;
+}
+
+@media only screen and (max-width:800px) {
+    .divisoria,
+    .divisoriaForm  {
+        flex-direction: column;
+        padding: -300px;
+    }
+    .divisor {
+        width: 100%;
+    }
 }
 
 /* main, footer {

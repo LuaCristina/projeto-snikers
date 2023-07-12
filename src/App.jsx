@@ -43,7 +43,7 @@ const App = () => {
           <p>Carregando...</p>
         ) : (
          
-<Fragment>
+          <Fragment>
             <Header data={data.header} />
             <Main data={data.main} />
             <Produtos data={data.products} />
@@ -51,18 +51,18 @@ const App = () => {
             <Historia data={data.hightlight} />
             <Marcas data={data.trademarks} />
             <div className='divisoria'>
-              <div style={{ width: '50%', height: '100%'  }}>
+              <div className='divisor'>
                 <About data={data.about} />
               </div>
-              <div style={{ width: '50%', height: '100%'  }}>
+              <div className='divisor'>
                 <FAQ data={data.faq} />
               </div>
             </div>
             <div className='divisoriaForm'>
-              <div style={{ width: '50%', height: '100%'  }}>
+              <div className='divisor'>
                 <Formulario data={data.about} />
               </div>
-              <div style={{ width: '50%', height: '100%'  }}>
+              <div className='divisor'>
                 <Testemonials data={data.testimonials} />
                 {/* <Formulario data={data.about} /> */}
               </div>
