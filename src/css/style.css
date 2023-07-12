@@ -52,6 +52,15 @@ p, li, h1, h2 {
     width: 50%;
 }
 
+.linha {
+    width: 10%; 
+}
+ 
+hr {
+    border: 1px solid transparent;
+}
+
+
 @media only screen and (max-width:800px) {
     .divisoria,
     .divisoriaForm  {

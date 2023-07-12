@@ -5,17 +5,15 @@ const Footer = (props) => {
     return (
         <div className="footer">
             <div className="footer-title">
-                <div className="title-wrapper">
-                    <h1>{props.data.title}</h1>
-                </div>
-                <div className="image-wrapper">
-                    <img src={props.data.image} alt="Logo" />
-                </div>
+                <span>
+                <img className="footer-icon" src={props.data.image}/>    
+                </span>
+                <h1>{props.data.title}</h1>
             </div>
             <div className='marcas-logos-area'>
                     {props.data.socias.map((social, index) => 
                        <a key={index} href={social.url}>
-                        <img src={social.image} className='marcas-logo' alt="Social" />
+                        <img src={social.image} className='social-logo' alt="Social" />
                     </a>
                     )} 
                 </div>

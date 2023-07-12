@@ -145,6 +145,7 @@ label {
 }
 
 input[type="submit"] {
+  margin-bottom: 50px;
   padding: 5px 20px;
   width: 30%;
   border: none;
