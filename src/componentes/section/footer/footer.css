@@ -1,0 +1,28 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-title {
+    display: flex;
+    text-align: center;
+    background-color: red;
+  }  
+  .footer-title img {
+    height: 60px;
+  }
+  
+  .footer-socials {
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .footer-socials img {
+    width: 60px;
+  }
+  

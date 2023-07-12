@@ -9,6 +9,7 @@ import Marcas from '@/componentes/section/marcas';
 import About from '@/componentes/section/about';
 import Formulario from '@/componentes/section/formulario';
 import Testemonials from '@/componentes/section/testemonials';
+import Footer from './componentes/section/footer/index';
 
 
 const App = () => {
@@ -64,9 +65,9 @@ const App = () => {
               <div style={{ width: '50%', height: '100%'  }}>
                 <Testemonials data={data.testimonials} />
                 {/* <Formulario data={data.about} /> */}
-
               </div>
             </div>
+            <Footer data={data.footer}/>
           </Fragment>
         )
       }
