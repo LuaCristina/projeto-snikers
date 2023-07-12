@@ -54,6 +54,7 @@ const App = () => {
               <div className='divisor'>
                 <About data={data.about} />
               </div>
+              <div style={{width: '10%'}}></div>
               <div className='divisor'>
                 <FAQ data={data.faq} />
               </div>
@@ -62,6 +63,8 @@ const App = () => {
               <div className='divisor'>
                 <Formulario data={data.about} />
               </div>
+
+              <div style={{width: '10%'}}></div>
               <div className='divisor'>
                 <Testemonials data={data.testimonials} />
                 {/* <Formulario data={data.about} /> */}

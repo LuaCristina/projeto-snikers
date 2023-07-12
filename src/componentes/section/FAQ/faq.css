@@ -2,8 +2,14 @@
 
 .faq-container {
   width: 100%;  
-  background-color: beige;
 }
+
+
+.faq-container h1 {
+  margin-bottom: 30px; 
+  text-align: center;
+}
+
 
 .faq-item {
   margin-bottom: 20px;

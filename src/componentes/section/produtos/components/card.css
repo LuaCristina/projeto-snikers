@@ -15,6 +15,7 @@
     height: 100%; 
     flex: 1;
     margin: auto;
+    object-fit: cover;
     background-color: white; 
 }
 

@@ -4,8 +4,14 @@
     align-items: center;
   }
   
-  .about-image {
-    width: 200px; /* Defina o tamanho desejado para a imagem */
+  .about-image img {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    height: 200px;
+
+    object-fit: contain;
+    width: 300px; /* Defina o tamanho desejado para a imagem */
   }
   
   .about-title {
