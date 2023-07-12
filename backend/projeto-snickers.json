@@ -183,17 +183,20 @@
         {
             "name": "Carlos Silva",
             "content": "Muito bom! Nota 10",
-            "rate": 5
+            "rate": 5,
+            "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png"
         },
         {
             "name": "Leandro Silvestre",
             "content": "0s produtos são de ótima qualidade",
-            "rate": 5
+            "rate": 5,
+            "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png"
         },
         {
             "name": "Lorena Alves",
             "content": "Chegou antes do esperado e exatamente como eu queria!",
-            "rate": 5
+            "rate": 5,
+            "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png"
         }
     ],
     "footer": {
