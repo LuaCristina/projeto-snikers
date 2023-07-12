@@ -116,7 +116,10 @@ const FormularioContato = () => {
                             <p>Eu aceito os termos, <a href="./termo.html" target="_blank">clique para ler</a></p>
                         </div>
 
-                        <input type="submit" value="Enviar" />
+                        <div className='enviar'>
+
+                            <input type="submit" value="Enviar" />
+                        </div>
                     </form>
 
                     {envioSucesso && (

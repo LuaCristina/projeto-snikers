@@ -136,9 +136,15 @@ label {
   width: 100%;
 }
 
-input[type="submit"] {
+.enviar {
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
-  display: inline-block;
+input[type="submit"] {
   padding: 5px 20px;
   width: 30%;
   border: none;
