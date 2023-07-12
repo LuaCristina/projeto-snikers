@@ -8,19 +8,18 @@ import './produtos.css'
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <img src="https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/0/c0253.jpg"
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Polygon44.png"
       onClick={onClick} 
       className={className} 
       style={{ ...style, display: "block",   width:'50px', height:'50px'}}
     ></img>
-
   );
 }
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <img src="https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/0/c0251.jpg"
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Polygon5.png"
       onClick={onClick} 
       className={className} 
       style={{ ...style, display: "block",   width:'50px', height:'50px'}}

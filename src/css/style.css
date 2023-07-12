@@ -89,3 +89,9 @@ hr {
     margin-bottom: 50px;
     padding-bottom: 20px;
 } */
+
+
+
+.retirarContentChamada {
+    transform: scale(0.001) translate(100%);
+}

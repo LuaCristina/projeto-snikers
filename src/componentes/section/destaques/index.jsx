@@ -9,22 +9,22 @@ import CardRedondo from 'src/componentes/section/destaques/componentes/CardRedon
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    />
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png"
+      onClick={onClick} 
+      className={className} 
+      style={{ ...style, display: "block",   width:'50px', height:'50px'}}
+    ></img>
   );
 }
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
-      onClick={onClick}
-    />
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png"
+      onClick={onClick} 
+      className={className} 
+      style={{ ...style, display: "block",   width:'50px', height:'50px'}}
+    ></img>
   );
 }
 
