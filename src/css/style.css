@@ -13,6 +13,7 @@ body{
 }
 
 section {
+    max-width: 1280px;
     display: flex;
     justify-content: center; 
     width: 90%;
@@ -22,6 +23,7 @@ section {
 
 
 .divisoria {
+    max-width: 1280px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -33,6 +35,8 @@ section {
 }
 
 .divisoriaForm {
+    max-width: 1280px;
+
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -41,6 +45,7 @@ section {
     background-color: rebeccapurple;
     margin: 30px auto; 
     padding: 50px;
+
 }
 
 /* main, footer {

@@ -186,5 +186,38 @@
             "content": "Chegou antes do esperado e exatamente como eu queria!",
             "rate": 5
         }
-    ]
+    ],
+    "footer": {
+        "title" : "Play nao sei o que",
+        "image":" https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logo_faq.png"
+        "socias" : [
+            {
+                "image": "",
+                "url" : "https://"
+            },
+            {
+
+            }
+        ]
+            
+    
+    }
+        [
+            {
+                "title":"Play IN'S SNK",
+            "image":" https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/logo_faq.png"
+            },
+            {
+                "image":
+            },
+            {
+                "name": "Lorena Alves",
+                "content": "Chegou antes do esperado e exatamente como eu queria!",
+                "rate": 5
+            }
+        ],
+
+
+
+
 }
