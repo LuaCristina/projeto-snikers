@@ -76,9 +76,9 @@ const Produtos = (props) => {
                   <div className="produtos-title"> {i.title} </div>
                   <Slider {...settings} className="slider">
                     {i.products.map((p, index) => 
-                      <div>
+                      
                         <Card title={p.description} url={p.url} image={p.image}/>
-                      </div>
+                  
                     )}
                   </Slider> 
                 </>

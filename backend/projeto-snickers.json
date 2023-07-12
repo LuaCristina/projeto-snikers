@@ -182,7 +182,7 @@
     "testimonials": [
         {
             "name": "Carlos Silva",
-            "content": "Muito bom! Nota 10",
+            "content": "Muito bom! Superou expectativas.",
             "rate": 5,
             "url": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/jordan.png"
         },
@@ -205,16 +205,16 @@
         "socias" : [
             {
                 "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Facebook.png",
-                "url" : "https://"
+                "url" : "https://instagram.com"
             },
             {
                 "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Instagram.png",
-                "url" : "https://"
+                "url" : "https://instagram.com"
 
             },
             {
                 "image": "https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/LinkedIn.png",
-                "url" : "https://"
+                "url" : "https://instagram.com"
             }
         ]
 

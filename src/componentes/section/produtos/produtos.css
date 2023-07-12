@@ -2,6 +2,8 @@
   min-height: 60%;
   width: 100%;
   padding: 0% 8% 8% 8%;
+  align-items: center;
+  justify-content: center;
 }
 
 .produtos-section-title { 
@@ -48,8 +50,6 @@
   }
   .produtos-container { 
     padding: 0% 5% 5% 5%;
-    width: 200px;
-    height: 600px;
   }
   
  
