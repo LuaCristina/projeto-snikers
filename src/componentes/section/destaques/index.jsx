@@ -9,7 +9,7 @@ import CardRedondo from 'src/componentes/section/destaques/componentes/CardRedon
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png"
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Polygon44.png"
       onClick={onClick} 
       className={className} 
       style={{ ...style, display: "block",   width:'50px', height:'50px'}}
@@ -20,7 +20,7 @@ function PrevArrow(props) {
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/shorts.png"
+    <img src="https://raw.githubusercontent.com/LuaCristina/projeto-snikers/master/backend/resources/Polygon5.png"
       onClick={onClick} 
       className={className} 
       style={{ ...style, display: "block",   width:'50px', height:'50px'}}
