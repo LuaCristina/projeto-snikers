@@ -7,22 +7,34 @@
     flex-direction: column;
     text-align: center;
   }
-
+  
   .footer-title {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: red;
-  }  
-  .footer-title img {
-    height: 60px;
+    margin-bottom: 10px;
+    flex-direction: row;
+  }
+  
+  .title-wrapper,
+  .image-wrapper {
+    flex: 1;
+  }
+  
+  .title-wrapper h1 {
+    margin: 0;
   }
   
   .footer-socials {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
+    flex-direction: row;
   }
   
   .footer-socials img {
     width: 60px;
+    margin-right: 10px;
   }
   
